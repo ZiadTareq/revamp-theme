@@ -1,0 +1,722 @@
+/******************
+    User custom CSS
+    ---------------
+    In this file you can add your own custom CSS
+    It will be loaded last, so you can override any other property.
+    Also, it will never be updated. So if you inheritate a core template and just add here some CSS, you'll still benefit of all the updates
+*/
+body {
+    font-size: 3vh;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-color: #333e48;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.fruity .navbar a.animate:after {
+    background-color: #E0E61D;
+}
+
+.fruity .navbar-toggle {
+    border: solid 1px #E0E61D;
+}
+
+.fruity .navbar-toggle .icon-bar {
+    background-color: #333e48;
+}
+
+.fruity .navbar-toggle {
+    background-color: #E0E61D;
+}
+
+.navbar-header {
+    background-color: #333e48;
+}
+
+.answer-container,
+.question-container {
+    border: none !important;
+    box-shadow: none !important;
+    text-align: center !important;
+}
+
+.star-rating {
+    font-size: 6rem;
+    line-height: 6rem;
+    cursor: pointer;
+    display: block;
+    float: center;
+    height: 6rem;
+    overflow: hidden;
+    width: 6rem;
+}
+
+.choice-5-pt-radio .answer-container {
+    text-align: center
+}
+
+.choice-5-pt-radio .stars-list {
+    display: inline-block
+}
+
+.fruity .btn-primary,
+.fruity .btn-primary:hover,
+.fruity .btn-primary:focus,
+.fruity .btn-primary:active,
+.fruity .btn-primary.active,
+.fruity .btn-primary.active:focus,
+.fruity .open .dropdown-toggle.btn-primary {
+    color: #333e48;
+    background-color: #E0E61D;
+    border: 1px solid #0f3e12;
+}
+
+.fruity .progress {
+    margin-top: 5px;
+}
+
+.fruity .progress-bar {
+    background-color: #E0E61D;
+}
+
+.fruity .text-info {
+    color: #000;
+}
+
+.fruity .btn-default {
+    color: #E0E61D;
+    border: 1px solid #E0E61D;
+}
+
+.ls-label-question {
+    font-size: 3rem;
+}
+
+#dev-banner {
+    background: url(http://app.surveyster.com/upload/themes/survey/umniah/files/banner.png) no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 310px;
+    background-color: #81ABA1;
+}
+
+.emoji {
+    font-family: sans-serif;
+    opacity: 50%;
+}
+
+.emoji.emoji-color {
+    font-family: serif;
+    opacity: 100%;
+}
+
+.slider-grab-container {
+    display: none;
+}
+
+.slider-wrapper {
+    display: inline-block;
+    text-align: center;
+}
+
+.slider-labels {
+    padding: 0 !important;
+}
+
+@media (max-width: 360px) {
+    #dev-banner {
+        height: 65px;
+        width: 112%;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 500px) {
+    #dev-banner {
+        height: 70px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+    #dev-banner {
+        height: 130px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    #dev-banner {
+        height: 170px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1500px) {
+    #dev-banner {
+        height: 170px;
+    }
+}
+
+@media (min-width: 1501px) {
+    #dev-banner {
+        height: 300px;
+        background-size: cover;
+    }
+}
+
+/* progress bar */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flex-sort {
+    display: flex;
+    align-items: stretch;
+}
+
+.list-group-item {
+    cursor: move;
+    cursor: -webkit-grabbing;
+    margin: 10px;
+}
+
+/*form styles*/
+#msform {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    position: relative;
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+/*inputs*/
+#msform input,
+#msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+/*buttons*/
+#msform .action-button {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+/*headings*/
+.fs-title {
+    font-size: 20px;
+    text-align: left;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    text-align: left;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/*progressbar*/
+#progressbar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    counter-reset: step;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 100px;
+    float: left;
+    position: relative;
+    margin: 0 1px;
+    height: 20px;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 20px;
+    line-height: 20px;
+    font-size: 0px;
+    color: #333;
+    background: white;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: -1;
+    border-bottom: 5px solid #a5ffcb;
+}
+
+#progressbar li:first-child:after {
+    content: none;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #19753f;
+    border-bottom: 5px solid #19753f;
+    color: rgb(20, 19, 19);
+}
+
+/* check images */
+#check-img ul {
+    list-style-type: none;
+}
+
+#check-img li {
+    display: inline-block;
+}
+
+#check-img input[type="checkbox"][id^="cb"] {
+    display: none;
+}
+
+#check-img label {
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+}
+
+label:before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid grey;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+#check-img label img {
+    height: 100px;
+    width: 100px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+    border: 1px solid #fff;
+}
+
+#check-img :checked+label {
+    border-color: rgb(29, 28, 28);
+}
+
+#check-img :checked+label:before {
+    content: "✓";
+    background-color: grey;
+    transform: scale(1);
+}
+
+#check-img :checked+label img {
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #333;
+    z-index: -1;
+}
+
+/* radio and checkbox */
+.inputGroup {
+    background-color: #fff;
+    display: block;
+    margin: 10px 0;
+    position: relative;
+}
+
+.inputGroup label {
+    padding: 12px 60px;
+    width: 100%;
+    display: block;
+    text-align: left;
+    color: #3c454c;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 200ms ease-in;
+    overflow: hidden;
+}
+
+.inputGroup label:before {
+    height: 10px;
+    border-radius: 50%;
+    content: "";
+    background-color: #70eca4;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale3d(1, 1, 1);
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    z-index: -1;
+}
+
+.inputGroup label:after {
+    width: 32px;
+    height: 32px;
+    content: "";
+    border: 2px solid #d1d7dc;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.414 11L4 12.414l5.414 5.414L20.828 6.414 19.414 5l-10 10z' fill='%23fff' fill-rule='nonzero'/%3E%3C/svg%3E ");
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.inputGroup input:checked~label {
+    color: #fff;
+}
+
+.inputGroup input:checked~label:before {
+    transform: translate(-50%, -50%) scale3d(56, 56, 1);
+    opacity: 1;
+}
+
+.inputGroup.ch-b label:after {
+    border-radius: 0;
+}
+
+.inputGroup.ch-b input:checked~label:after {
+    content: "✓";
+    color: #27AE60;
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+}
+
+.inputGroup input:checked~label:after {
+    color: #27AE60;
+    background-color: #20884b;
+    text-align: center;
+    margin: auto;
+}
+
+.inputGroup input {
+    width: 32px;
+    height: 32px;
+    order: 1;
+    z-index: 2;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.ch-ro {
+    padding: 0 16px;
+    max-width: 550px;
+    margin: 50px auto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+/* slider  */
+#slider {
+    margin: auto;
+    margin-bottom: 45px;
+    margin-top: 40px;
+}
+
+#slider label {
+    position: absolute;
+    margin-left: -50px;
+    color: #51ca83;
+    font-size: 18px;
+}
+
+#slider a {
+    background-color: #27AE60;
+    width: 20px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+#slider .ui-widget-header {
+    background: rgb(114, 250, 137) url(images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;
+}
+
+/* radio images */
+#radio-only .cc-selector input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#radio-only .cc-selector input:active+.drinkcard-cc {
+    opacity: .9;
+}
+
+#radio-only .cc-selector input:checked+.drinkcard-cc {
+    -webkit-filter: none;
+    -moz-filter: none;
+    filter: none;
+}
+
+#radio-only .drinkcard-cc {
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 15px;
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+    -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+    filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+
+#radio-only .drinkcard-cc img {
+    border: 3px solid #27AE60;
+}
+
+#radio-only .drinkcard-cc:hover {
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+.cc-selector {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* emojis checkbox */
+#smileys input[type="radio"] {
+    -webkit-appearance: none;
+    width: 90px;
+    height: 90px;
+    border: none;
+    cursor: pointer;
+    transition: border 0.2s ease;
+    filter: grayscale(100%);
+    margin: 0 5px;
+    transition: all 0.2s ease;
+}
+
+#smileys input[type="radio"]:hover,
+#smileys input[type="radio"]:checked {
+    filter: grayscale(0);
+}
+
+#smileys input[type="radio"]:focus {
+    outline: 0;
+}
+
+#smileys input[type="radio"].happy {
+    background: url('https://openmoji.org/data/color/svg/1F604.svg') center;
+    background-size: cover;
+}
+
+#smileys input[type="radio"].neutral {
+    background: url('https://openmoji.org/data/color/svg/1F610.svg') center;
+    background-size: cover;
+}
+
+#smileys input[type="radio"].sad {
+    background: url('https://openmoji.org/data/color/svg/1F621.svg') center;
+    background-size: cover;
+}
+
+.smileys1 input[type=radio] {
+    display: block;
+    margin: 0 auto;
+}
+
+.smileys1 label {
+    display: inline-block;
+}
+
+/* Checkbox and Radio buttons */
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"]+.btn-group>label,
+.form-group input[type="radio"]+.btn-group>label {
+    white-space: normal;
+}
+
+.form-group input[type="checkbox"]+.btn-group>label.btn-default,
+.form-group input[type="radio"]+.btn-group>label.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.form-group input[type="radio"]+.btn-group>label span:first-child,
+.form-group input[type="checkbox"]+.btn-group>label span:first-child {
+    display: none;
+}
+
+.form-group input[type="radio"]+.btn-group>label span:first-child+span,
+.form-group input[type="checkbox"]+.btn-group>label span:first-child+span {
+    display: inline-block;
+}
+
+.form-group input[type="radio"]:checked+.btn-group>label span:first-child,
+.form-group input[type="checkbox"]:checked+.btn-group>label span:first-child {
+    display: inline-block;
+}
+
+.form-group input[type="radio"]:checked+.btn-group>label span:first-child+span,
+.form-group input[type="checkbox"]:checked+.btn-group>label span:first-child+span {
+    display: none;
+}
+
+.form-group input[type="checkbox"]+.btn-group>label span[class*="fa-"],
+.form-group input[type="radio"]+.btn-group>label span[class*="fa-"] {
+    width: 15px;
+    float: left;
+    margin: 4px 0 2px -2px;
+}
+
+.form-group input[type="checkbox"]+.btn-group>label span.content,
+.form-group input[type="radio"]+.btn-group>label span.content {
+    margin-left: 10px;
+}
+
+@media (max-width: 425px) {
+    #msform {
+        width: 100%;
+    }
+
+    #msform fieldset {
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #check-img ul {
+        padding: 0;
+    }
+
+    .ch-ro {
+        padding: 0;
+        font-size: 60%;
+        line-height: 50%;
+    }
+
+    .inputGroup label:after {
+        width: 16px;
+        height: 16px;
+    }
+
+    .inputGroup input {
+        width: 16px;
+        height: 16px;
+    }
+
+    .ch-ro h2 {
+        font-size: 16px;
+    }
+
+    .smileys1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logo-container>img {
+        padding: 27px 22px 20px 0;
+    }
+
+    .cc-selector {
+        margin-bottom: 90px;
+        text-align: center;
+    }
+
+    input.next,
+    input.submit {
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .mobile-start {
+        margin-top: 50% !important;
+    }
+}
